@@ -77,7 +77,7 @@ while True:
         nome = str(input("Nome: "))
         telefone = input("Telefone: ")
         email = input("E-mail (Opcional): ")
-        adicionar_contato(agenda, nome, telefone)
+        adicionar_contato(agenda, nome, telefone, email)
 
     elif escolha == 2:
         visualizar_contatos(agenda)
